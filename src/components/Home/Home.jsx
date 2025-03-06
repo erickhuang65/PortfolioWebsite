@@ -17,7 +17,7 @@ const Home = () => {
           <br />
           <div className='logo'>
             <span>I'm</span>
-            <img className='animate__animated animate__bounce' src="./src/assets/logo.png" alt="text-logo" />
+            <img className='animate__animated animate__bounce' src="../public/logo.png" alt="text-logo" />
             <span>rick, </span>
           </div>
           <br />
@@ -26,7 +26,7 @@ const Home = () => {
         <button onClick={() => navigate('/contact/dev')}>Contact Me</button>
       </div>
       <div className="logo-container">
-        <img className="fa-beat-fade" src="./src/assets/logo.png" alt="logo" />
+        <img className="fa-beat-fade" src="../public/logo.png" alt="logo" />
       </div>
     </div>
   )

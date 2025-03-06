@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faUser, faEnvelope, faFolderOpen } from '@fortawesome/free-solid-svg-icons'
 import './Sidebar.css'
@@ -9,7 +8,7 @@ const Sidebar = () => {
   return (
     <div className='navbar'>
         <Link to={"/"}>
-            <img src="/src/assets/logo.png" alt="logo" className="nav-logo" />
+            <img src="../public/logo.png" alt="logo" className="nav-logo" />
         </Link>
         <nav className='navbar-list'>
             <Link to={"/"}>
