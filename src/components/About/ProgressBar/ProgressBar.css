@@ -1,0 +1,44 @@
+.progress-bar {
+    border-radius: 10px;
+    height: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.progress {
+    background-color:aliceblue;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.python-class .progress{
+    background-color: rgb(76, 4, 76);
+}
+
+.js-class .progress {
+    background-color: rgb(196, 19, 196);
+}
+
+.java-class .progress {
+    background-color: rgb(98, 21, 124);
+}
+
+.sql-class .progress {
+    background-color: beige;
+}
+
+.spring-class .progress {
+    background: linear-gradient(45deg, #281162, #c491e8)
+}
+
+.flask-class .progress {
+    background: linear-gradient(45deg, #d11dc2, #9539d7)
+}
+
+.node-class .progress {
+    background: linear-gradient(45deg, beige, #db3cc3)
+}
+
+.react-class .progress {
+    background: linear-gradient(45deg, #b91e85, #9539d7)
+}
