@@ -1,6 +1,6 @@
 import React from 'react'
 import ProgressBar from '../ProgressBar/ProgressBar'
-import './Framework.css'
+import './FrameWork.css'
 
 const FrameWork = () => {
 
