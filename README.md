@@ -15,7 +15,7 @@ Welcome! This web application is built using ReactJS, showcasing my skillsets, p
 * License
 
 **Introduction**
-This coding project is a space where I can highlight my skill sets and expertise, share my projects, and share more about my journey to becoming a full-stack developer.
+This coding project is a space to highlight my skill sets, projects, and expertise and share more about my journey to becoming a full-stack developer.
 
 **Features**
 * Design: The web application is designed for user to be able to access it across various devices. In pr1, the current phase of the web app, it is fully functional through a web browser. The web app will be fully functional for all screen sizes in pr2.
