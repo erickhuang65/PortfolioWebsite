@@ -9,7 +9,7 @@ Erick's Coding Portfolio Web Application
 - [Contributing](#contributing)
 - [License](#license)
 
-Welcome! This web application is built using ReactJS, showcasing my skillsets, projects, and achievements in web development.
+Welcome! This web application is built using ReactJS, showcasing my skillsets, projects, and achievements in web development. You can check it out: [here](https://portfolio-website-git-main-ericks-projects-9fe68f90.vercel.app/)
 
 <img width="1749" alt="Screenshot 2025-03-06 at 1 45 24 PM" src="https://github.com/user-attachments/assets/e3d4be79-65f2-484a-a962-f4bb85624188" />
 
