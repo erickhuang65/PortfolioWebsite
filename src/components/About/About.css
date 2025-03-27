@@ -50,3 +50,7 @@ button {
     margin-right: 10px;
     background: linear-gradient(45deg, #2b5876, #4e4376);
 }
+
+.loader-img {
+    margin-top: 30vh;
+}
