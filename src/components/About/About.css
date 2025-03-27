@@ -53,3 +53,54 @@ button {
 .loader-container {
     position: fixed;
 }
+
+/* Container styling */
+.languages-container {
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  /* Styling for the language icons */
+  .language {
+    font-size: 3rem;
+    font-weight: bold;
+    color: linear-gradient(45deg, #2b5876, #4e4376); /* You can change the color or use the default icon color */
+    display: inline-block;
+    animation: fadeInRotate 3s ease-in-out infinite;
+    padding: 20px;
+  }
+  
+  .language-icon {
+    margin-bottom: 10px;
+  }
+  
+  /* Keyframes to create the fade-in and rotate effect */
+  @keyframes fadeInRotate {
+    0% {
+      opacity: 0;
+      transform: rotate(0deg);
+    }
+    50% {
+      opacity: 1;
+      transform: rotate(180deg);
+    }
+    100% {
+      opacity: 0;
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Styling for the heading */
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .image-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
