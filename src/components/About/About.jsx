@@ -48,10 +48,7 @@ const About = () => {
             </h1>
             <h3 className="intro-text">
               <span>
-                I am a results-driven Software Developer with a unique background
-                that has prepared me to communicate with team members effectively,
-                approach problems analytically, and actively take the initiative to
-                support team members.
+                I am a results-driven Software Developer with a distinctive background that has prepared me to work in dynamic environments, tackle challenges analytically, communicate with team members effectively, and technical skills to take on any challenges.
               </span>
             </h3>
             <div className="graph-text">
