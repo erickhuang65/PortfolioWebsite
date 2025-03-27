@@ -5,24 +5,31 @@ import LanguageList from './LanguageList/LanguageList'
 import { useState, useEffect } from 'react'
 import FrameWork from './FrameWork/FrameWork'
 import { useNavigate } from 'react-router-dom'
+import { PacmanLoader } from 'react-spinners';
 
 const About = () => {
 
-  const [loaderImg, setLoaderImg] = useState(true);
-  const navigate = useNavigate();
+  const [loading, setLoading] = useState(true);
   const [currentComponent, setCurrentComponent] = useState("LanguageList");
+  const navigate = useNavigate();
 
   useEffect(() => {
     setTimeout(() => {
-      setLoaderImg(false);
+      setLoading(false);
     }, 3000); 
   }, []);
 
   return (
-    <>
+    <div className="about-page">
     {
-      loaderImg ? (
-        <img className='loader-img' src="/loader.gif" alt="" />
+      loading ? (
+        <PacmanLoader
+        className='loader-container'
+        loading={loading}
+        color='yellow'
+        size={20}
+        speedMultiplier={1}
+        />
       ) : (
       <div className='about-page'>
         <div className='text-container'>
@@ -50,7 +57,7 @@ const About = () => {
       </div>
       )
     }
-    </>
+    </div>
   );
 }
 

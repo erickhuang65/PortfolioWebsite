@@ -4,6 +4,7 @@
     padding: 0;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -26,7 +27,6 @@
     font-size: 35px;
     cursor: pointer;
     text-align: justify;
-    margin-top: 15vh;
 }
 
 .intro-text {
@@ -43,7 +43,6 @@
 
 .image-container {
     width: 25%;
-    margin-top: 40vh;
 }
 
 button {
@@ -51,6 +50,6 @@ button {
     background: linear-gradient(45deg, #2b5876, #4e4376);
 }
 
-.loader-img {
-    margin-top: 25vh;
+.loader-container {
+    position: fixed;
 }
