@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Home.css'
 import 'animate.css';
 import { useNavigate } from 'react-router-dom'
 
 
 const Home = () => {
-  
+
+  const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, [])
 
   return ( 
     <div className='home-page'>

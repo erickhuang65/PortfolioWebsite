@@ -1,13 +1,13 @@
 import React from 'react'
 import './About.css'
-import 'animate.css'
+import 'animate.css' 
 import LanguageList from './LanguageList/LanguageList'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import FrameWork from './FrameWork/FrameWork'
 
 const About = () => {
 
-  const [currentComponent, setCurrentComponent] = useState("LanguageList")
+  const [currentComponent, setCurrentComponent] = useState("LanguageList");
 
   return (
     <div className='about-page'>
@@ -16,7 +16,7 @@ const About = () => {
           <span>About Me</span>
         </h1>
         <h3 className='intro-text'>
-          <span>I am a results driven Software Developer with a unique background that has prepared me to communicate with team members effectively, approach problems analytically, and actively take the initiative to support team members. I pride myself on being a quick learner and thrive in dynamic environments, where I can quickly adapt to changes, and contribute effectively.</span>
+          <span>I am a results driven Software Developer with a unique background that has prepared me to communicate with team members effectively, approach problems analytically, and actively take the initiative to support team members.</span>
         </h3> 
         <div className='graph-text'>
           <button onClick={() => setCurrentComponent("LanguageList")}>Languages</button>
