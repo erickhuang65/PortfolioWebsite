@@ -25,7 +25,7 @@ const About = () => {
     }, 3000);
 
     const interval = setInterval(() => {
-      setCurrentLanguage(prev => (prev + 1) % languages.length); // Rotate languages every 3 seconds
+      setCurrentLanguage(prev => (prev + 1) % languages.length);
     }, 3000);
 
     return () => clearInterval(interval); 
