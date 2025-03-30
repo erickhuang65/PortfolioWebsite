@@ -8,7 +8,7 @@ import LanguageList from './LanguageList/LanguageList';
 import FrameWork from './FrameWork/FrameWork';
 
 const About = () => {
-
+  
   const [loading, setLoading] = useState(true);
   const [currentComponent, setCurrentComponent] = useState("LanguageList");
   const [currentLanguage, setCurrentLanguage] = useState(0);
@@ -51,7 +51,7 @@ const About = () => {
             </h1>
             <h3 className="intro-text">
               <span>
-                
+                I am a results-driven Software Developer with a distinctive background that has prepared me to work in dynamic environments, tackle challenges analytically, communicate with team members effectively, and technical skills to take on any challenges.
               </span>
             </h3>
             <div className="graph-text">
