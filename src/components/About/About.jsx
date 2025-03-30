@@ -8,11 +8,10 @@ import LanguageList from './LanguageList/LanguageList';
 import FrameWork from './FrameWork/FrameWork';
 
 const About = () => {
-  
   const [loading, setLoading] = useState(true);
   const [currentComponent, setCurrentComponent] = useState("LanguageList");
   const [currentLanguage, setCurrentLanguage] = useState(0);
-
+  
   const languages = [
     { icon: faJava, name: 'Java' },
     { icon: faJs, name: 'JavaScript' },
@@ -29,9 +28,8 @@ const About = () => {
       setCurrentLanguage(prev => (prev + 1) % languages.length); // Rotate languages every 3 seconds
     }, 3000);
 
-    return () => clearInterval(interval);
+    return () => clearInterval(interval); 
   }, [languages.length]);
-
 
   return (
     <div className="about-page">
