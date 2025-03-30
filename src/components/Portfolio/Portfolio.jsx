@@ -7,7 +7,6 @@ import { PacmanLoader } from 'react-spinners';
 const Portfolio = () => {
 
   const [loading, setLoading] = useState(true);
-  const navigate = useNavigate();
 
   useEffect(() => {
     setTimeout(() => {
